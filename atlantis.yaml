@@ -6,3 +6,6 @@ projects:
 - dir: ec2-test
   autoplan:
     when_modified: ["../modules/**/*.tf", "*.tf*", ".terraform.lock.hcl"]
+- dir: ec2-test-2
+  autoplan:
+    when_modified: ["../modules/**/*.tf", "*.tf*", ".terraform.lock.hcl"]
